@@ -1,5 +1,5 @@
 {
-  "name": "social-react-client",
+  "name": "social-react-redux",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -33,7 +33,7 @@
     "@redux-devtools/core": "^3.9.0",
     "@redux-devtools/dock-monitor": "^1.4.0",
     "@redux-devtools/log-monitor": "^2.3.0"
-    },
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
