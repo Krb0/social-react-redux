@@ -19,6 +19,11 @@ export default makeStyles((theme) => ({
     margin: "10px 0",
   },
   buttonSubmit: {
-    marginBottom: 10,
+    borderTopRightRadius: 0,
+    borderBottomRightRadius: 0,
+  },
+  buttonClear: {
+    borderTopLeftRadius: 0,
+    borderBottomLeftRadius: 0,
   },
 }));

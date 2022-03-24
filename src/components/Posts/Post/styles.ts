@@ -49,4 +49,11 @@ export default makeStyles({
     display: "flex",
     justifyContent: "space-between",
   },
+  actionButton: {
+    "& .MuiButton-label": {
+      display: "flex",
+      alignItems: "center",
+      gap: "0.5rem",
+    },
+  },
 });
