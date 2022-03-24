@@ -21,6 +21,10 @@ export default makeStyles((theme) => ({
   buttonSubmit: {
     borderTopRightRadius: 0,
     borderBottomRightRadius: 0,
+    color: "white",
+    "&:hover": {
+      backgroundColor: "#8759C1",
+    },
   },
   buttonClear: {
     borderTopLeftRadius: 0,

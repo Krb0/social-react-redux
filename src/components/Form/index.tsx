@@ -45,7 +45,7 @@ const Form = () => {
         <Input field="tags" postData={postData} setPostData={setPostData} />
         <FileUpload postData={postData} setPostData={setPostData} />
         <Grid container alignItems="center">
-          <Grid item xs={10}>
+          <Grid item xs={8} lg={10}>
             <Button
               className={classes.buttonSubmit}
               variant="contained"
@@ -57,7 +57,7 @@ const Form = () => {
               Submit
             </Button>
           </Grid>
-          <Grid item xs={2}>
+          <Grid item xs={4} lg={2}>
             <Button
               className={classes.buttonClear}
               variant="contained"
